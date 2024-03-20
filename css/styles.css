@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.accent {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #2e2f42;
+}
+
+.home-page {
+    background-color: #2E2F42;
+}
+/*1 pages*/
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    color: #fff;
+}
+
+.button-order {
+    background-color: #4D5AE5;
+    color: #fff;
+}
+
+/*2 pages*/
+
+.title-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.text-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.style-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+}
+
+/*3 pages*/
+
+.background-grey {
+    background-color: #F4F4FD;
+}
+
+.name-employer {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.background-blue {
+    background-color: #2E2F42;
+}
+
+/*footer*/
+
+.logo-white {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
+}
+
