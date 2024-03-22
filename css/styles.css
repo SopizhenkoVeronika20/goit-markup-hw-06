@@ -1,5 +1,5 @@
 .body {
-    font-family: "Roboto", "Montserat", "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -45,7 +45,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #2e2f42;
+    /*color: #2e2f42;*/
 }
 
 .header-item-link:hover, 
@@ -74,6 +74,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .contacts-item a:hover,
@@ -158,11 +159,11 @@ ul {
 
 /*----------our team---------*/
 
-.our-team {
+.our-team {}
+
+.our-team-list {
     background: #f4f4fd;
 }
-
-.our-team-list {}
 
 .our-team-item {}
 
