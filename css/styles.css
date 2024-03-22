@@ -37,7 +37,9 @@ ul {
 
 .header-list {}
 
-.header-item {}
+.header-item {
+    color: #2e2f42;
+}
 
 .header-item-link {
     font-weight: 500;
@@ -45,7 +47,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #2e2f42;
+    /*color: #2e2f42;*/
 }
 
 .header-item-link:hover, 
