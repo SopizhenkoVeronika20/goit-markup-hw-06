@@ -45,7 +45,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    /*color: #2e2f42;*/
+    color: #2e2f42;
 }
 
 .header-item-link:hover, 
@@ -159,13 +159,15 @@ ul {
 
 /*----------our team---------*/
 
-.our-team {}
-
-.our-team-list {
+.our-team {
     background: #f4f4fd;
 }
 
-.our-team-item {}
+.our-team-list {}
+
+.our-team-item {
+    background-color: #FFFFFF;
+}
 
 .our-team-subtitle {
     font-weight: 500;
