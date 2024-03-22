@@ -1,6 +1,7 @@
 .body {
-    font-family: 'Roboto', 'Montserat', 'Open Sans', sans-serif;
-    color: #2e2f42;
+    font-family: "Roboto", "Montserat", "Open Sans", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -61,17 +62,25 @@ ul {
 }*/
 
 
-.contacts {}
+.contacts {
+    font-style: normal;
+}
 
 .contacts-list {
 }
 
-.contacts-item {
+.contacts-item a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.contacts-item a:hover,
+.contacts-item a:focus {
+    color:#404bbf;
+}
+
 
 .header-item-link {
     color: currentColor;
@@ -101,12 +110,23 @@ ul {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
-    
+    background-color: #4D5AE5;   
+}
+
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #404BBF;
+}
+
+.body .main-btn {
+    font-family: "Roboto", sans-serif;
 }
 
 /*----------content---------*/
 
-.content {}
+.content {
+    background-color: #FFFFFF;
+}
 
 .subtitle {
     font-weight: 700;
@@ -114,6 +134,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .content-list {}
@@ -150,6 +171,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .our-team-text {
