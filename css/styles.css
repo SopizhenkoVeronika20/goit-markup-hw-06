@@ -48,8 +48,6 @@ address {
 
 .header {
     background: #fff;
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -57,6 +55,8 @@ address {
     display: flex;
     flex-grow: 1;  
     align-items: center;  
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo {
@@ -115,6 +115,8 @@ address {
 
 .contacts {
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts-list {
@@ -146,6 +148,8 @@ address {
 
 .main-content {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
@@ -185,8 +189,6 @@ address {
 }
 
 .wrap {
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 /*----------content---------*/
 
@@ -249,6 +251,10 @@ address {
     
 }
 
+.card-employee {
+    padding-bottom: 32px;
+}
+
 .our-team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
@@ -274,7 +280,6 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 32px;
 }
 
 /*----------portfolio---------*/
@@ -288,19 +293,27 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    
 }
 
-.portfolio-item {
+.card-item {
+    padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
+}
+
+.card-portfolio {
     max-width: 360px;
 }
 
-.portfolio-img {
-    margin-bottom: 32px;
+.portfolio-item {
 }
+
+.portfolio-img {
+    max-width: 100%;
+}
+
+
 
 .porfolio-subtitle {
     font-weight: 500;
@@ -308,6 +321,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -317,8 +331,6 @@ address {
 }
 
 .card-portfolio {
-    padding-bottom: 32px;
-    padding-left: 16px;
 }
 
 /*----------footer---------*/

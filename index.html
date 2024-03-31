@@ -7,12 +7,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.com/libraries/modern-normalize">
     <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
 </head>
 <body class="body">
     <header class="header">
@@ -47,12 +47,10 @@
         <!--1 pages-->
         <section class="main-content">
             <div class="container">
-                <div class="wrap">
-                    <h1 class="main-title">
-                        Effective Solutions for Your Business
-                    </h1>
-                    <button class="main-btn" type="button">Order Service</button>
-                </div>
+                <h1 class="main-title">
+                    Effective Solutions for Your Business
+                </h1>
+                <button class="main-btn" type="button">Order Service</button>
             </div>
         </section>
 
@@ -96,23 +94,31 @@
                 <ul class="our-team-list">
                     <li class="our-team-item">
                         <img class="our-team-img" src="./images/mark.jpg" alt="Mark`s-photo" width="264">
-                        <h3 class="our-team-subtitle">Mark Guerrero</h3>
-                        <p class="our-team-text">Product Designer</p>
+                        <div class="card-employee">
+                            <h3 class="our-team-subtitle">Mark Guerrero</h3>
+                            <p class="our-team-text">Product Designer</p>
+                        </div> 
                     </li>
                     <li class="our-team-item">
                         <img class="our-team-img" src="./images/tom.jpg" alt="Tom`s-photo" width="264">
-                        <h3 class="our-team-subtitle">Tom Ford</h3>
-                        <p class="our-team-text">Frontend Developer</p>
+                        <div class="card-employee">
+                            <h3 class="our-team-subtitle">Tom Ford</h3>
+                            <p class="our-team-text">Frontend Developer</p>
+                        </div> 
                     </li>
                     <li class="our-team-item">
                         <img class="our-team-img" src="./images/camila.jpg" alt="Camila`s-photo" width="264">
-                        <h3 class="our-team-subtitle">Camila Garcia</h3>
-                        <p class="our-team-text">Marketing</p>
+                        <div class="card-employee">
+                            <h3 class="our-team-subtitle">Camila Garcia</h3>
+                            <p class="our-team-text">Marketing</p>
+                        </div> 
                     </li>
                     <li class="our-team-item">
                         <img class="our-team-img" src="./images/daniel.jpg" alt="Daniel`s-photo" width="264">
-                        <h3 class="our-team-subtitle">Daniel Wilson</h3>
-                        <p class="our-team-text">UI Designer</p>
+                        <div class="card-employee">
+                            <h3 class="our-team-subtitle">Daniel Wilson</h3>
+                            <p class="our-team-text">UI Designer</p>
+                        </div> 
                     </li>
                 </ul>
             </div>
@@ -125,45 +131,57 @@
                     <div class="card-portfolio">
                         <li class="portfolio-item">
                             <img class="portfolio-img" src="./images/01.jpg" alt="application design" width="360">
-                            <h3 class="porfolio-subtitle">Banking App</h3>
-                            <p class="portfolio-text">App</p>
+                            <div class="card-item">
+                                <h3 class="porfolio-subtitle">Banking App</h3>
+                                <p class="portfolio-text">App</p>
+                            </div>
                         </li>
                     </div>
                     <div class="card-portfolio">
                         <li class="portfolio-item">
                             <img class="portfolio-img" src="./images/02.jpg" alt="the phone scans the QR code" width="360">
-                            <h3 class="porfolio-subtitle">Cashless Payment</h3>
-                            <p class="portfolio-text">Marketing</p>
+                            <div class="card-item">
+                                <h3 class="porfolio-subtitle">Cashless Payment</h3>
+                                <p class="portfolio-text">Marketing</p>
+                            </div>
                         </li>
                     </div>
                     <div class="card-portfolio">
                         <li class="portfolio-item">
                             <img class="portfolio-img" src="./images/03.jpg" alt="desktop and mobile design" width="360">
-                            <h3 class="porfolio-subtitle">Meditation App</h3>
-                            <p class="portfolio-text">App</p>
+                            <div class="card-item">
+                                <h3 class="porfolio-subtitle">Meditation App</h3>
+                                <p class="portfolio-text">App</p>
+                            </div>
                         </li>
                     </div>
                     <div class="card-portfolio">
                         <li class="portfolio-item">
                             <img class="portfolio-img" src="./images/04.jpg" alt="car steering wheel" width="360">
-                            <h3 class="porfolio-subtitle">Taxi Service</h3>
-                            <p class="portfolio-text">Marketing</p>
+                            <div class="card-item">
+                                <h3 class="porfolio-subtitle">Taxi Service</h3>
+                                <p class="portfolio-text">Marketing</p>
+                            </div>
                         </li>
                     </div>
                     <div class="card-portfolio">
                         <li class="portfolio-item">
                             <img class="portfolio-img" src="./images/05.jpg" alt="background for phone" width="360">
-                            <h3 class="porfolio-subtitle">Screen Illustrations</h3>
-                            <p class="portfolio-text">Design</p>
+                            <div class="card-item">
+                                <h3 class="porfolio-subtitle">Screen Illustrations</h3>
+                                <p class="portfolio-text">Design</p>
+                            </div>
                         </li>
                     </div>
                     <div class="card-portfolio">
                         <li class="portfolio-item">
                             <img class="portfolio-img" src="./images/06.jpg" alt="the girl listens to the course" width="360">
-                            <h3 class="porfolio-subtitle">Online Courses</h3>
-                            <p class="portfolio-text">Marketing</p>
+                            <div class="card-item">
+                                <h3 class="porfolio-subtitle">Online Courses</h3>
+                                <p class="portfolio-text">Marketing</p>
+                            </div>
                         </li>
-                    </div>
+                    </div>              
                 </ul>
             </div>
         </section>
