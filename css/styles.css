@@ -177,6 +177,7 @@ address {
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
+    min-width: 169px;
 }
 
 .main-btn:hover,
@@ -191,6 +192,19 @@ address {
 .wrap {
 }
 /*----------content---------*/
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    white-space: nowrap;
+}
 
 .content {
     background-color: #FFFFFF;
@@ -304,6 +318,7 @@ address {
 
 .card-portfolio {
     max-width: 360px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item {
