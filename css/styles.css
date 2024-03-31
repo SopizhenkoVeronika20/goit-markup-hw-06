@@ -4,17 +4,60 @@
     background-color: #FFFFFF;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+*/
 
 /*----------header---------*/
 
-.header {
-    background: #fff;
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+   /* margin-left: ;
+    margin-right: ;*/
+    margin: 0 auto;
 }
 
-.nav {}
+.header-wrap {
+    display: flex;
+}
+
+.header {
+    background: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;  
+    align-items: center;  
+}
 
 .logo {
     font-weight: 700;
@@ -25,6 +68,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    align-items: center;
 }
 
 .nav .accent {
@@ -35,7 +79,11 @@ ul {
     color: #f4f4fd;
 }
 
-.header-list {}
+.header-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
 
 .header-item {
     color: #2e2f42;
@@ -70,6 +118,8 @@ ul {
 }
 
 .contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-item a {
@@ -89,6 +139,7 @@ ul {
     color: currentColor;
 }
 
+
 /*----------main---------*/
 
 .main {}
@@ -104,6 +155,9 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .main-btn {
@@ -113,7 +167,12 @@ ul {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
-    background-color: #4D5AE5;   
+    background-color: #4D5AE5; 
+    display: block;  
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 .main-btn:hover,
@@ -125,10 +184,16 @@ ul {
     font-family: "Roboto", sans-serif;
 }
 
+.wrap {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 /*----------content---------*/
 
 .content {
     background-color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .subtitle {
@@ -139,11 +204,17 @@ ul {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.content-list {}
+.content-list {
+    display: flex;
+    gap: 24px;
+}
 
-.content-item {}
+.content-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
 
 .content-subtitle {
     font-weight: 500;
@@ -151,6 +222,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .content-text {
@@ -163,12 +235,23 @@ ul {
 
 .our-team {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.our-team-list {}
+.our-team-list {
+    display: flex;
+    gap: 24px;
+    
+}
 
 .our-team-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+}
+
+.our-team-img {
+    margin-bottom: 32px;
 }
 
 .our-team-subtitle {
@@ -179,6 +262,7 @@ ul {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .our-team-text {
@@ -186,15 +270,33 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-bottom: 32px;
 }
 
 /*----------portfolio---------*/
 
-.portfolio {}
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-.portfolio-list {}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    
+}
 
-.portfolio-item {}
+.portfolio-item {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    max-width: 360px;
+}
+
+.portfolio-img {
+    margin-bottom: 32px;
+}
 
 .porfolio-subtitle {
     font-weight: 500;
@@ -202,18 +304,23 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-left: 16px;
 }
 
 .portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 /*----------footer---------*/
 
 .fotter {
    background: #2e2f42;
+   padding-top: 101.5px;
+   padding-bottom: 100px;
 }
 
 .footer-text {
@@ -221,4 +328,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    margin-top: 17.5px;
 }
+
