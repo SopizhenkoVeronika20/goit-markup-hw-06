@@ -49,14 +49,14 @@ address {
 .header {
     background: #fff;
     border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav {
     display: flex;
     flex-grow: 1;  
     align-items: center;  
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .logo {
@@ -115,8 +115,7 @@ address {
 
 .contacts {
     font-style: normal;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .contacts-list {
@@ -317,11 +316,12 @@ address {
 }
 
 .card-portfolio {
-    max-width: 360px;
-    width: calc((100% - 48px) / 3);
+    
 }
 
 .portfolio-item {
+    max-width: 360px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img {
