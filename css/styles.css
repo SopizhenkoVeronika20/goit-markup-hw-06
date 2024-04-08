@@ -90,13 +90,11 @@ address {
     display: flex;
     gap: 40px;
     padding: 24px 0;
-    position: relative;
+    
 }
 
 .header-item {
     color: #2e2f42;
-    position: relative;
-    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -111,6 +109,7 @@ address {
     display: flex;
     gap: 20px;
     flex-direction: column;
+    position: relative;
 }
 
 .header-item-link:hover, 
@@ -121,7 +120,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
-    
+    position: relative;
 }
 
 /*.header-item-link:hover::after,
