@@ -90,6 +90,7 @@ address {
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    position: relative;
 }
 
 .header-item {
@@ -192,7 +193,7 @@ address {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.png);
+    
 }
 
 .main {}
@@ -206,7 +207,7 @@ address {
 }
 
 .main-content.hero {
-    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.png);
 }
 
 .main-title {
@@ -219,6 +220,7 @@ address {
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
+    
 }
 
 .main-btn {
@@ -529,7 +531,9 @@ address {
 .footer-item-icon {
     width: 40px;
     height: 40px;
+    align-items: baseline;
 }
+
 
 .fotter-soc-text {
     font-weight: 500;
@@ -564,5 +568,13 @@ address {
 
 .footer-content {
     display: flex;
-    gap: 120px;
+    
+}
+
+.footer-logo-text {
+    margin-right: 120px;
+}
+
+.footer-soc-icon {
+    
 }
