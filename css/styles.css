@@ -217,8 +217,8 @@ address {
 
 
 .main-content {
-    /*background: #2e2f42;
-    background-color: #2e2f42;*/
+    /*background: #2e2f42;*/
+    background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
