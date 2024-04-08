@@ -110,6 +110,7 @@ address {
     display: flex;
     gap: 20px;
     flex-direction: column;
+    position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -192,7 +193,7 @@ address {
 
 .hero {
     background-color: #2e2f42;
-    background-image: url(/images/people-office.png);
+   /* background-image: url(../images/people-office.png);*/
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -210,7 +211,7 @@ address {
 }
 
 .main-content.hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
 }
 
 .main-title {
