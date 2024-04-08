@@ -532,6 +532,7 @@ address {
     width: 40px;
     height: 40px;
     align-items: baseline;
+    display: flex;
 }
 
 
@@ -568,7 +569,6 @@ address {
 
 .footer-content {
     display: flex;
-    
 }
 
 .footer-logo-text {
@@ -576,5 +576,5 @@ address {
 }
 
 .footer-soc-icon {
-    
+
 }
