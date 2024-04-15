@@ -602,10 +602,14 @@ a {
 
 .x-cursor {
     fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     position: fixed;
     top: 0;
@@ -643,6 +647,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 72px 24px 24px 24px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-open-btn {
@@ -656,6 +661,17 @@ a {
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+    background-color: #404bbf;
+    border: none;
 }
 
 .form-text {
