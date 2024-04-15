@@ -787,12 +787,16 @@ a {
     position: relative;
 }
 
+.check-text {
+    
+}
 
 .check-text:checked + .form-checkbox span {
     border-radius: 2px;
     border: 1px solid #404bbf;
     background-color: #404BBF;
     fill: #f4f4fd;
+    border: none;
 }
 
 .form-checkbox {
