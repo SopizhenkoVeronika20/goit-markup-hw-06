@@ -601,9 +601,14 @@ a {
 }
 
 .x-cursor {
-    fill: #2e2f42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
+
+.x-cursor:hover,
+.x-cursor:focus {
+    
+}
+
 
 .modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
@@ -666,12 +671,15 @@ a {
     justify-content: center;
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-open-btn:hover,
 .modal-open-btn:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .form-text {
@@ -700,6 +708,7 @@ a {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     color: #000;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus {
@@ -745,7 +754,7 @@ a {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     
