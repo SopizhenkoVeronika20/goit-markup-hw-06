@@ -545,7 +545,6 @@ a {
 .footer-logo-text {
     /* margin-right: 120px; */
     margin: 0 auto;
-    
 }
 
 .footer-text {
@@ -1145,14 +1144,19 @@ input:hover::placeholder {
     }
     .footer-logo-text {
         margin-right: 120px;
+        margin-left: 0;
     }
     .logo.footer {
         /* display: inline-block; */
     }
     .footer-soc-icon {
         margin-right: 80px;
+        margin-left: 0;
     }
     .footer-input {
         width: 264px;
+    }
+    .subscribe-form {
+        margin: 0;
     }
 }
