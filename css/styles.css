@@ -297,11 +297,19 @@ a {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)), 
-        url(../images/office.jpg);
+        url(../images/office-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+}
+
+@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (:-webkit-min-device-pixel-ratio: 2) {
+    .main-content {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/office-mob-2x.jpg);
+    }
 }
 
 .main-title {
@@ -1091,7 +1099,15 @@ input:hover::placeholder {
 }
 
 @media screen and (min-width: 768px) {
-    
+    @media screen and (min-resolution: 2dppx),
+        (min-resolution: 192dpi),
+        (:-webkit-min-device-pixel-ratio: 2) {
+            .main-content {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/office-pl-2x.jpg);
+            }
+        }
     
     .logo {
         margin-right: 120px;
@@ -1196,6 +1212,9 @@ input:hover::placeholder {
         padding-top: 112px;
         padding-bottom: 112px;
         height: 436px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/office-pl.jpg);
         }
     .main-title {
         font-size: 56px;
@@ -1281,6 +1300,16 @@ input:hover::placeholder {
 
 
 @media screen and (min-width: 1158px) {
+    @media screen and (min-resolution: 2dppx),
+        (min-resolution: 192dpi),
+        (:-webkit-min-device-pixel-ratio: 2) {
+            .main-content {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/office-2x.jpg);
+            }
+        }
+    
     .container {
         width: 1158px;
         padding-left: 15px;
@@ -1295,6 +1324,9 @@ input:hover::placeholder {
         padding-top: 188px;
         padding-bottom: 188px;
         height: 600px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/office.jpg);
     }
     .main-title{
         font-size: 56px;
