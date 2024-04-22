@@ -1140,6 +1140,7 @@ input:hover::placeholder {
         padding-bottom: 100px;
     }
     .footer-container {
+        flex-wrap: none;
         gap: 24px;
     }
     .footer-logo-text {
@@ -1147,14 +1148,20 @@ input:hover::placeholder {
         margin-left: 0;
     }
     .logo.footer {
-        /* display: inline-block; */
+        display: inline-block;
     }
     .footer-soc-icon {
         margin-right: 80px;
-        margin-left: 0;
+        /* margin-left: 0; */
     }
     .footer-input {
         width: 264px;
+    }
+    .footer-form {
+        flex-wrap: none;
+    }
+    .fotter-soc-text {
+        justify-content: left;
     }
     .subscribe-form {
         margin: 0;
