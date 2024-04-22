@@ -1092,6 +1092,105 @@ input:hover::placeholder {
 }
 
 @media screen and (min-width: 768px) {
+    .logo {
+        margin-right: 120px;
+    }
+
+    .menu-open-btn {
+        display: none;
+    }
+
+    .header-wrap {
+        padding-top: 0;
+        padding-bottom: 0;
+}
+
+    .header-list {
+    display: flex;
+    gap: 40px;
+    /* display: none; */
+    }
+
+    .header-item .current{
+        color: #404bbf;
+    }
+
+    .header-item-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: #404bbf;
+        padding: 24px 0;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        position: relative;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-item-link {
+        color: currentColor;
+        text-decoration: none;
+    }
+
+    .current {
+        position: relative;
+        color: #404BBF;
+    }
+
+    .header-item-link:hover, 
+    .header-item-link:focus {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #404bbf;
+        position: relative;
+    }
+
+    .header-item-link.current::after,
+    .header-item-link.current::after {
+        width: 100%;
+        height: 4px;
+        background-color: #404BBF;
+        content: "";
+        border-radius: 2px;
+        position: absolute;
+        bottom: -1px;
+    }
+
+    .contacts {
+        font-style: normal;
+        
+    }
+
+    .contacts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        
+
+        padding: 0;
+        /* display: none; */
+    }
+
+    .contacts-item a {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .contacts-item a:hover,
+    .contacts-item a:focus {
+        color:#404bbf;
+    }
+    
+    
     .main-content {
         padding-top: 112px;
         padding-bottom: 112px;
@@ -1129,18 +1228,18 @@ input:hover::placeholder {
     .our-team {
         padding-top: 96px;
         padding-bottom: 96px;
-   }
+    }
    .section-container {
        padding-left: 92px;
        padding-right: 92px;
-   }
+    }
    .our-team-list {
         /* flex-wrap: none; */
         gap: 64px 24px;
-   }
+    }
    .our-team-item {
         width: calc((100% - 24px) / 2);
-   }
+    }
     
     
     .portfolio {
@@ -1208,7 +1307,9 @@ input:hover::placeholder {
         padding-top: 120px;
         padding-bottom: 120px;
     }
-    .content-list {
+    .contacts-list {
+        display: flex;
+        flex-direction: row;
         gap: 24px;
     }
     .content-item {
