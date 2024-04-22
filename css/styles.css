@@ -543,6 +543,8 @@ a {
     text-align: center;
 }
 
+
+
 .footer-logo-text {
     /* margin-right: 120px; */
     margin: 0 auto;
@@ -640,7 +642,7 @@ a {
 .footer-btn {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -1001,7 +1003,7 @@ input:hover::placeholder {
         padding-top: 96px;
         padding-bottom: 96px;
    }
-   .our-team-container {
+   .section-container {
        padding-left: 92px;
        padding-right: 92px;
    }
@@ -1027,8 +1029,24 @@ input:hover::placeholder {
     }
 
 
+    
     .footer-container {
         flex-direction: row;
+        flex-wrap: wrap;
+        text-align: left;
+        gap: 72px 24px;
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+    .footer-logo-text {
+        margin: 0;
+    }
+    .footer-soc-icon {
+        margin-right: 80px;
+        margin: 0;
+    }
+    .footer-input {
+        width: 264px;
     }
 }
 
@@ -1131,12 +1149,16 @@ input:hover::placeholder {
         width: 264px;
     }
     .footer-logo-text {
-        /* margin-right: 120px; */
+        margin-right: 120px;
         text-align: left;
+    }
+    .footer-soc-icon {
+        margin-right: 80px;
     }
     .footer-container {
         flex-direction: row;
         text-align: left;
+        gap: 0;
     }
     
 }
