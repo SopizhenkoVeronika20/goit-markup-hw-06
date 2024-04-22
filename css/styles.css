@@ -1335,7 +1335,10 @@ input:hover::placeholder {
        justify-content: center;
    }
 
-
+    .section-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
    .our-team {
         padding-top: 120px;
         padding-bottom: 120px;
