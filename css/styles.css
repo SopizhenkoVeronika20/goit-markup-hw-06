@@ -139,8 +139,7 @@ a {
 }
 
 .contacts {
-    font-style: normal;
-    
+    font-style: normal;  
 }
 
 .contacts-list {
@@ -232,7 +231,15 @@ a {
 
 .current {}
 
-.menu-address {}
+.menu-address {
+    font-style: normal;
+}
+
+.menu-address-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 
 .menu-address-list:not(:last-child) {
     margin-bottom: 24px;
@@ -250,7 +257,10 @@ a {
     
 }
 
-.menu-address-item-link {}
+.menu-address-item-link {
+    color: #434455;
+    text-decoration: none;
+}
 
 .menu-list-icon-list {
     display: flex;
@@ -258,6 +268,7 @@ a {
     align-items: center;
     /* justify-content: center; */
     gap: 40px;
+    margin-top: 48px;
 }
 
 .menu-list-item-icon {
@@ -293,7 +304,6 @@ a {
     padding-bottom: 72px;
     /* max-width: 1440px; */
     width: 100%;
-    height: 432px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)), 
@@ -1230,16 +1240,16 @@ input:hover::placeholder {
 
     
     .container {
-        width: 768px;
+        width: 584px;
         padding-left: 16px;
         padding-right: 16px;
     }
     .content {
-        padding-top: 96px;
-        padding-bottom: 96px;
+        /* padding-top: 96px;
+        padding-bottom: 96px; */
     }
     .content-list {
-        gap: 24px;
+        gap: 72px 24px;
     }
     .content-item {
         width: calc((100% - 24px) / 2);
@@ -1281,8 +1291,9 @@ input:hover::placeholder {
         flex-wrap: wrap;
         text-align: left;
         gap: 72px 24px;
-        padding-left: 92px;
-        padding-right: 92px;
+        /* padding-left: 92px;
+        padding-right: 92px; */
+        width: 584px;
     }
     .footer-logo-text {
         margin: 0;
@@ -1359,6 +1370,9 @@ input:hover::placeholder {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+    }
+    .content-text{
+        font-weight: 400;
     }
    .content-item-icon {
        border: 1px solid #8e8f99;
