@@ -187,7 +187,11 @@
                 <div class="section-container">
                     <ul class="our-team-list">
                         <li class="our-team-item">
-                            <img class="our-team-img" src="./images/mark.jpg" alt="Mark`s-photo" width="264">
+                            <img class="our-team-img" 
+                            srcset="
+                                ./images/mark.jpg 1x,
+                                ./images/mark-2x-mob 2x"
+                            src="./images/mark.jpg" alt="Mark`s-photo" width="264">
                             <div class="card-employee">
                                 <h3 class="our-team-subtitle">Mark Guerrero</h3>
                                 <p class="our-team-text">Product Designer</p>
@@ -550,8 +554,10 @@
                                 <use href="./images/form-icons.svg#icon-check"></use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of the
-                        <a class="href-form-checkbox" href="/index.html">Privacy Policy</a>
+                        <span>
+                            I accept the terms and conditions of the <a class="href-form-checkbox" href="/index.html">Privacy Policy</a>
+                        </span>
+                            
                     </label>
                 </div>
     
