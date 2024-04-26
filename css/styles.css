@@ -491,6 +491,12 @@ a {
     
 }
 
+.section-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 .our-team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
@@ -1143,8 +1149,8 @@ input:hover::placeholder {
     .header-wrap {
         padding-top: 0;
         padding-bottom: 0;
-        /* margin-left: 0;
-        margin-right: 0; */
+        
+       
 }
 
     .header-list {
@@ -1248,7 +1254,10 @@ input:hover::placeholder {
         margin-bottom: 36px;
     }
 
-
+    .section-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .content-subtitle {
         text-align: left;
     }
@@ -1275,8 +1284,8 @@ input:hover::placeholder {
         padding-bottom: 96px;
     }
    .section-container {
-       padding-left: 92px;
-       padding-right: 92px;
+       /* padding-left: 92px;
+       padding-right: 92px; */
     }
    .our-team-list {
         /* flex-wrap: none; */
