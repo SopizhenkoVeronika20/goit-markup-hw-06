@@ -1386,9 +1386,11 @@ input:hover::placeholder {
         flex-direction: row;
         gap: 24px;
     }
+
     .content-item {
         width: calc((100% - 3 * 24px) / 4);
     }   
+
     .content-subtitle {
         font-weight: 500;
         font-size: 20px;
@@ -1396,9 +1398,11 @@ input:hover::placeholder {
         letter-spacing: 0.02em;
         color: #2e2f42;
     }
+
     .content-text{
         font-weight: 400;
     }
+    
    .content-item-icon {
        border: 1px solid #8e8f99;
        border-radius: 4px;
